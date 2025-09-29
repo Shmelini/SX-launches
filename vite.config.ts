@@ -6,6 +6,7 @@ import svgr from 'vite-plugin-svgr'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), svgr()],
+  base: 'SX-launches',
   test: {
     globals: true,
     environment: 'jsdom',
