@@ -1,0 +1,5 @@
+.launches-list {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    gap: 20px;
+}
